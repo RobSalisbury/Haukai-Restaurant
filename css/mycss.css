@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color:#e7eff6;
+    padding: 0; 
+    margin: 0;
+}
+
+.bluebar {
+    background-color:#adcbe3;
+    font-family: 'Space Mono';
+    height: 4em;
+    padding: 0; 
+    margin-top: -4px;
+  
+}
+
+.bluebarbot {
+    background-color:#adcbe3;
+    font-family: 'Space Mono';
+    height: 4em;
+    padding: 0; 
+    margin-top: -4px;
+  
+}
+.navbar {
+    font-size: 150%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Space Mono';
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.navbar:hover {
+    color: rgb(41, 41, 135);
+}
+
+a:hover {
+    color: rgb(41, 41, 135);
+}
+
+.col {
+    float: left;
+    width: 16.66%;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.appsflex {
+    display: flex;
+    font-family: 'Space Mono';
+    text-align: center;
+    color: black;
+    margin: 20px;
+    height: 300px;
+    width: 90%;
+    padding: 0; 
+}
+
+.restaurantimg {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+}
+
+.viewmenu {
+    color: rgb(255, 0, 0);
+    font-family: Sacramento;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Space Mono';
+    text-align: center;
+}
+
+.map {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.contact {
+    font-family: 'Space Mono';
+    font-size: 2em;
+    text-align: center;
+}
+
+.reservations {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.apps {
+    font-family: 'Space Mono';
+    text-align: center;
+    color: white;
+    margin: 20px;
+    height: 300px;
+    width: 100%;
+}
+.items {
+    font-family: 'Space Mono';
+    text-align: center;
+    margin: 20px;
+    height: 300px;
+    width: 40%;
+}
+.main {
+    font-family: 'Space Mono';
+    text-align: center;
+}
+.dessert {
+    font-family: 'Space Mono';
+    text-align: center;
+}
+
+.flex {
+    height: 100%;
+    width: 30%;
+}
+
+.bevappsflex {
+    display: flex;
+    font-family: 'Space Mono';
+    text-align: center;
+    color: black;
+    margin: 20px 20px 40px 20px;
+    height: 300px;
+    width: 90%;
+    padding: 0; 
+}
+
+.google {
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .col {
+       display: block;
+    }
+}
+ @media screen and (max-width: 600px) {
+    .col {
+       width: 100%;
+    }
+    .bluebar {
+        height: 16em;
+    }
+    .appsflex {
+        display: inline;
+        width: 100%;
+        padding: 0; 
+        margin: 0;
+    }
+    .bevappsflex {
+        display: inline;
+        width: 100%;
+        padding: 0; 
+        margin: 0;
+    }
+    .flex {
+        width: 100%;
+        padding: 0; 
+        margin-top: 20px;
+    }
+    .apps {
+        margin: 0;
+        padding: 0; 
+    }
+    .items {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+}
