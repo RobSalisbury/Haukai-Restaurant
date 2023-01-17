@@ -158,6 +158,12 @@ footer {
     width: 100%;
 }
 
+.googleform {
+    width: 640px;
+    height: 1300px;
+    border: 0px;
+}
+
 @media screen and (max-width: 900px) {
     .col {
        display: block;
